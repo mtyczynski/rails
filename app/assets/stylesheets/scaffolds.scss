@@ -87,7 +87,14 @@ div {
 label {
   display: block;
 }
-
+.btn{
+margin-left: 1px;
+margin-right: 1px;
+padding-left: 40px;
+padding-right: 40px;
+font: bold;
+font-size: 17px;
+}
 .btn.outline {
 	background: none;
 
