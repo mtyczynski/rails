@@ -25,7 +25,7 @@
     <% end %>
   </tbody>
 </table>
-
+<%= will_paginate @games %>
 <br>
  <%- if user_signed_in? %>
 <%= link_to 'New Game', new_game_path,  class: "btn btn-success outline" %>
